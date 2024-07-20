@@ -808,6 +808,10 @@ footer {
     fill: #2E2F42;
 }
 
+.modal-submit-btn.user-name-icon:hover {
+    fill: #2734c1;
+}
+
 .comment-textarea {
     width: 100%;
     height: 120px;
