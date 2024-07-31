@@ -24,10 +24,10 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="page-header">
       <div class="container header-container">
         <nav class="nav-list">
-          <a href="./index.html" class="lgtp">
+          <a href="./index.html" class="lgtp header-logo">
             WEB<span class="lgtp_spn">Studio</span>
           </a>
           <ul class="header-li">
@@ -50,6 +50,66 @@
             </li>
           </ul>
         </address>
+        
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+      <div class="mobile-menu-container container">
+        <button type="button" class="modal-close-btn">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="menu-ul">
+            <li><a href="./index.html" class="menu-list">Studio</a></li>
+            <li><a href="" class="menu-list">Portfolio</a></li>
+            <li><a href="" class="menu-list">Contacts</a></li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="menu-ul-contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="menu-contacts"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="menu-contacts"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div class="footer-ul"><ul class="footer-ul">
+          <li class="footer-ul-item">
+            <a href="" class="footer-ul-item-link"><svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg></a>
+          </li>
+          <li class="footer-ul-item">
+            <a href="" class="footer-ul-item-link"><svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg></a>
+          </li>
+          <li class="footer-ul-item">
+            <a href="" class="footer-ul-item-link"><svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-Vector-1"></use>
+            </svg></a>
+          </li>
+          <li class="footer-ul-item">
+            <a href="" class="footer-ul-item-link"><svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg></a>
+          </li>
+        </ul></div>
+      </div>
+
       </div>
     </header>
     <main>
@@ -405,7 +465,7 @@
       </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="hidden">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="close-icon" width="8" height="8">
